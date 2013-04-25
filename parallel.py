@@ -15,7 +15,7 @@ def main():
 def mainTwo(commandInput):
    f=open(commandInput,'r')
    commandText=f.readlines()
-   print len(commandText)
+   print '{0} number of jobs is in the que'.format(len(commandText))
 
 
 
@@ -32,6 +32,7 @@ def mainTwo(commandInput):
 
 
 def run(toDo):
+   print toDo
    print os.popen(toDo).read()
 
 if __name__=='__main__':

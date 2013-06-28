@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local.bin/python2.7
 '''
 this script is used to run commands in parallel
 
